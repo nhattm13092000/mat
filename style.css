@@ -938,7 +938,7 @@ ul.profile-information li p span{
 
 .contactForm .bntSubForm{
     color: #000;
-    background: #ffc500 !important;
+    background: #ffc500;
     font-size: 14px;
     font-weight: 500;
     border: 0;
@@ -947,6 +947,12 @@ ul.profile-information li p span{
     line-height: 35px;
     margin-top: 15px;
     margin-bottom: 30px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.bntSubForm:hover{
+    background: #ffb100;
 }
 
 .contactForm input:focus,
